@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.movie-item-card {
+  height: 150px;
+  width: 180px;
+  border-radius: 10px;
+  border: none;
+}
+.movie-thumbnail {
+  height: 150px;
+  width: 180px;
+}
+.popup-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.close-button {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  align-self: flex-end;
+}
+.popup-content {
+  height: 420px;
+  width: 600px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
